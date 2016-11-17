@@ -105,8 +105,7 @@ a {
     font-size: 1rem; } }
 
 .main-content {
-  color: #fff;}
-
+  background-color: #FFF056;}
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
