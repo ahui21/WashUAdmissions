@@ -48,7 +48,7 @@
 
       <div>
         <p>I am a
-          <select name="race" id="religion" class="graph-attribute" onchange="showData(this.value)">
+          <select name="religion" id="religion" class="graph-attribute" onchange="showData(this.value)">
             <option value="All">-- select one --</option>
             <option value="Christianity">Christian</option>
             <option value="Islam">Muslim</option>
@@ -65,6 +65,23 @@
             <option value="Black">Black</option>
             <option value="Asian and Pacific Islanders">Asian and Pacific Islander</option>
             <option value="Native American">Native American</option>
+          </select>
+          <select name="sexualOrientation" id="sexualOrientation" class="graph-attribute" onchange="showData(this.value)">
+            <option value="All">-- select one --</option>
+            <option value="Straight">Straight</option>
+            <option value="Gay">Gay</option>
+            <option value="Lesbian">Lesbian</option>
+            <option value="Bisexual">Bisexual</option>
+            <option value="Transsexual">Transsexual</option>
+            <option value="Queer">Queer</option>
+            <option value="Other">Other</option>
+          </select>
+          <select name="gender" id="gender" class="graph-attribute" onchange="showData(this.value)">
+            <option value="All">-- select one --</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non-binary">Non-binary/Third Gender</option>
+            <option value="Other">Other</option>
           </select>
         </p>
 
