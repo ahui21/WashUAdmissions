@@ -243,3 +243,19 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+select {
+    margin: auto 5px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+option {
+    color: #555;
+}
