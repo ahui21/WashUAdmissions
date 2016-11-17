@@ -104,6 +104,9 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+.main-content {
+  color: #fff;}
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
@@ -247,7 +250,7 @@ a {
 select {
     margin: auto 5px;
     background-color: transparent;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
     border-radius: 0%;

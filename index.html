@@ -48,8 +48,18 @@
 
       <div>
         <p>I am a</p>
+        <select name="race" id="religion" class="graph-attribute" onchange="showData(this.value)">
+          <option value="All">-- select one --</option>
+          <option value="Christianity">Christian</option>
+          <option value="Islam">Muslim</option>
+          <option value="None">Secular/Nonreligious/Agnostic/Atheist</option>
+          <option value="Hinduism">Hindu</option>
+          <option value="Buddhism">Buddhist</option>
+          <option value="Judaism">Jew</option>
+          <option value="Other">Other</option>
+        </select>
         <select name="race" id="race" class="graph-attribute" onchange="showData(this.value)">
-          <option value="All">Person</option>
+          <option value="All">-- select one --</option>
           <option value="White">White</option>
           <option value="Hispanic or Latino">Hispanic or Latino</option>
           <option value="Black">Black</option>
